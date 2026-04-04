@@ -37,18 +37,29 @@ The interactive wizard handles OAuth2 authentication, VIN discovery, backend sel
 
 ### 3. Install the plugin
 
-**Option A -- Claude Code plugin manager:**
+Add the Tesla marketplace to your Claude Code settings — run this once:
 
 ```bash
-/plugin install dacrypt/tesla-claude-plugin
+claude settings set extraKnownMarketplaces.tesla.source.source git
+claude settings set extraKnownMarketplaces.tesla.source.url https://github.com/dacrypt/tesla-claude-plugin.git
 ```
 
-**Option B -- From the monorepo:**
+Or manually add to `~/.claude/settings.json`:
 
-```bash
-git clone https://github.com/dacrypt/tesla.git
-claude --plugin-dir ./tesla/plugins/claude-code
+```json
+{
+  "extraKnownMarketplaces": {
+    "tesla": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/dacrypt/tesla-claude-plugin.git"
+      }
+    }
+  }
+}
 ```
+
+Restart Claude Code and the plugin loads automatically.
 
 ### 4. Use it
 
