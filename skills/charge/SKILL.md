@@ -63,6 +63,7 @@ tesla charge amps                # show current amperage
 
 ## Response Guidelines
 
+- If the CLI is not configured (no VIN, no auth), **stop and tell the user to run `/tesla:setup`** — never auto-configure
 - Always include **SoC %** and **charge state** (charging, stopped, disconnected)
 - If charging: show power (kW), time remaining, and target limit
 - For cost queries: show kWh consumed and cost (using configured `cost_per_kwh`)

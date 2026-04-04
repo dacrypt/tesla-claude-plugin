@@ -66,6 +66,7 @@ tesla vehicle alerts             # recent fault codes
 
 ## Response Guidelines
 
+- If the CLI is not configured (no VIN, no auth), **stop and tell the user to run `/tesla:setup`** — never auto-configure
 - Lead with the most relevant info (usually battery %)
 - Include location only if asked or if the car is away from home
 - Mention charging state if plugged in

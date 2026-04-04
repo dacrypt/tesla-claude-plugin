@@ -37,7 +37,7 @@ The interactive wizard handles OAuth2 authentication, VIN discovery, backend sel
 
 ### 3. Install the plugin
 
-Add the Tesla marketplace to your Claude Code settings — run this once:
+**Step A** — Register the Tesla marketplace (once):
 
 ```bash
 claude settings set extraKnownMarketplaces.tesla.source.source git
@@ -59,7 +59,13 @@ Or manually add to `~/.claude/settings.json`:
 }
 ```
 
-Restart Claude Code and the plugin loads automatically.
+**Step B** — Install the plugin in Claude Code:
+
+```
+/plugin install tesla@tesla
+```
+
+Restart Claude Code and the plugin is ready.
 
 ### 4. Use it
 

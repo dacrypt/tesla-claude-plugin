@@ -56,6 +56,7 @@ tesla order watch --on-change-exec "echo changed"  # shell hook
 
 ## Response Guidelines
 
+- If the CLI is not configured, **stop and tell the user to run `/tesla:setup`** — never auto-configure
 - Start with the **current order status** and **delivery date** if available
 - Show the gate progress (which of 13 gates have been passed)
 - If the car hasn't been delivered yet, include ETA estimates
