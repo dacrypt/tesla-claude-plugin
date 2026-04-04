@@ -6,6 +6,7 @@ description: >
   "where's my car?", "is my car ready?", or similar status queries.
 argument-hint: "[detail: battery|location|climate|full]"
 allowed-tools: Bash(tesla *)
+level: 1
 ---
 
 # Tesla Vehicle Status

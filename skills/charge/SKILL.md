@@ -6,6 +6,7 @@ description: >
   battery, range, kWh, cost per charge, charge history, or Supercharger usage.
 argument-hint: "[query: status|last|weekly|sessions|forecast|cost]"
 allowed-tools: Bash(tesla *)
+level: 1
 ---
 
 # Tesla Charging

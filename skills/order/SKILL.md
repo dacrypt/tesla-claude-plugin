@@ -6,6 +6,7 @@ description: >
   order status, when their car arrives, delivery appointment, or tracking.
 argument-hint: "[query: status|delivery|eta|gates|watch|checklist|ships]"
 allowed-tools: Bash(tesla *)
+level: 1
 ---
 
 # Tesla Order Tracking

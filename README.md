@@ -43,11 +43,11 @@ The interactive wizard handles OAuth2 authentication, VIN discovery, backend sel
 /plugin install dacrypt/tesla-claude-plugin
 ```
 
-**Option B -- Local development:**
+**Option B -- From the monorepo:**
 
 ```bash
-git clone https://github.com/dacrypt/tesla-claude-plugin.git
-claude --plugin-dir ./tesla-claude-plugin
+git clone https://github.com/dacrypt/tesla.git
+claude --plugin-dir ./tesla/plugins/claude-code
 ```
 
 ### 4. Use it

@@ -5,6 +5,7 @@ description: >
   Auto-loads when the user mentions Tesla, EV, charging, battery,
   Supercharger, Autopilot, climate, sentry mode, or their car.
 user-invocable: false
+level: 1
 ---
 
 # Tesla CLI — Background Context

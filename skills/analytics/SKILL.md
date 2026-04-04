@@ -5,6 +5,7 @@ description: >
   degradation, vampire drain, efficiency, heatmaps. Requires TeslaMate.
 argument-hint: "[query: trips|charging|costs|battery|vampire|efficiency|heatmap]"
 allowed-tools: Bash(tesla *)
+level: 2
 ---
 
 # Tesla Analytics (TeslaMate)

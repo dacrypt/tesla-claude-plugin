@@ -9,5 +9,6 @@
     "name": "David Velasquez",
     "url": "https://github.com/dacrypt"
   },
-  "keywords": ["tesla", "ev", "vehicle", "charging", "automotive", "iot", "self-hosted"]
+  "keywords": ["tesla", "ev", "vehicle", "charging", "automotive", "iot", "self-hosted"],
+  "skills": "./skills/"
 }

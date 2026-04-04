@@ -6,6 +6,7 @@ description: >
   vehicle specs, option codes, battery type, or wants a deep profile.
 argument-hint: "[query: build|show|vin|recalls|history|sources]"
 allowed-tools: Bash(tesla *)
+level: 2
 ---
 
 # Tesla Vehicle Dossier
